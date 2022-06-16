@@ -451,7 +451,7 @@ private:
     }
 
     for (const auto &internal : graph.value_info()) {
-      AddValueInfo(internal);
+      AddValueInfo(internal, true);
     }
 
     for (const auto &output : graph.output()) {
